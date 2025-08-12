@@ -53,8 +53,9 @@
         <input type="email" id="email" name="email"><br><br>
 
         <label for="message">ที่อยู่ :</label><br>
-        <textarea id="message" name="message"></textarea><br><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
     </form>
+
     <h2>ส่วนที่ 2: ข้อมูลการสมัครเรียน</h2>
     <form>
         <label for="cer">วุฒิที่จบมา :</label><br>
@@ -82,7 +83,67 @@
             <option value="INET">INET</option>
         </select><br><br>
 
+        <label for="">เหตุผลที่เลือกสาขา :</label><br>
+        <textarea id="" name="" rows="4" cols="50"></textarea><br><br>
     </form>
-    
+
+    <h2>ส่วนที่ 3: ประวัติการศึกษา</h2>
+    <form>
+        <table>
+            <tr>
+                <th>ระดับการศึกษา</th>
+                <th>สถานศึกษา</th>
+                <th>จังหวัด</th>
+                <th>ปีที่เข้า</th>
+                <th>ปีที่จบ</th>
+                <th>วุฒิที่ได้รับ</th>
+                <th>GPA</th>
+            </tr>
+            <tr>
+                <td>ประถมศึกษา</td>
+                <td><input></td>
+                <td><input></td>
+                <td><input></td>
+                <td><input></td>
+                <td><input></td>
+                <td><input></td>
+            </tr>
+            <tr>
+                <td>มัธยมต้น</td>
+                <td><input></td>
+                <td><input></td>
+                <td><input></td>
+                <td><input></td>
+                <td><input></td>
+                <td><input></td>
+            </tr>
+            <tr>
+                <td>มัธยมปลาย/ปวช./ปวส.</td>
+                <td><input></td>
+                <td><input></td>
+                <td><input></td>
+                <td><input></td>
+            </tr>
+        </table>
+    </form>
+
+    <h2>ส่วนที่ 4: เอกสารแนบ</h2>
+    <form>
+        <label for="pdf1">แนบไฟล์สำเนาบัตรประชาชน</label><br>
+        <input type="file" id="pdf1" name="pdf1"><br><br>
+
+        <label for="pdf2">แนบไฟล์วุฒิการศึกษา (เช่น ปพ.1)</label><br>
+        <input type="file" id="pdf2" name="pdf2"><br><br>
+    </form>
+
+    <h2>ส่วนที่ 5: การยืนยันและส่งฟอร์ม</h2>
+    <form>
+        <label for="confirm">ยอมรับเงื่อนไข</label>
+        <input type="checkbox" id="confirm" name="confirm"><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
 </body>
 </html>
